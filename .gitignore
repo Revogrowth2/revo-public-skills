@@ -1,0 +1,27 @@
+# Este repositório distribui instruções. Dados locais nunca devem entrar.
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.kdbx.*
+*.1password
+credentials*.json
+service-account*.json
+secrets/
+segredos/
+private/
+privado/
+backups/
+.obsidian/
+dist/
+*.zip

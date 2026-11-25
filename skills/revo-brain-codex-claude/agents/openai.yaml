@@ -1,0 +1,6 @@
+interface:
+  display_name: "REVO Brain · Codex e Claude"
+  short_description: "Configure contexto e continuidade entre agentes"
+  default_prompt: "Use $revo-brain-codex-claude para configurar meu Brain privado e retomar trabalho entre agentes."
+policy:
+  allow_implicit_invocation: true

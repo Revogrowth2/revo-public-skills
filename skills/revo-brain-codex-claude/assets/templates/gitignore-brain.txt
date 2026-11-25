@@ -1,0 +1,20 @@
+# Sugestão para MESCLAR ao .gitignore existente, nunca substituir sem revisão.
+# .gitignore não remove arquivo já rastreado e não criptografa nada.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.kdbx.*
+credentials*.json
+service-account*.json
+secrets/
+segredos/
+privado/
+backups/
+.obsidian/
+# Avalie se acessos.md e fontes/ devem ficar fora do repositório de código.
+# Para Brain em Git privado, versione só o que foi revisado e autorizado.
